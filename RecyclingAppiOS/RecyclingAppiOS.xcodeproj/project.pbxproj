@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F19B69525D44545002C4509 /* RecyclingAppiOS-1-main in Resources */ = {isa = PBXBuildFile; fileRef = 2F19B69425D44545002C4509 /* RecyclingAppiOS-1-main */; };
+		2F55CCC225D45B9600288C6D /* RecyclingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F55CCC125D45B9600288C6D /* RecyclingTests.swift */; };
+		2F55CCCD25D45B9600288C6D /* RecyclingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F55CCCC25D45B9600288C6D /* RecyclingUITests.swift */; };
 		2F72E3AC25D34A4000FBED29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F72E3AB25D34A4000FBED29 /* AppDelegate.swift */; };
 		2F72E3AE25D34A4000FBED29 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F72E3AD25D34A4000FBED29 /* SceneDelegate.swift */; };
 		2F72E3B025D34A4000FBED29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F72E3AF25D34A4000FBED29 /* ViewController.swift */; };
@@ -37,6 +38,19 @@
 
 /* Begin PBXFileReference section */
 		2F19B69425D44545002C4509 /* RecyclingAppiOS-1-main */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "RecyclingAppiOS-1-main"; path = "../../Programming/RecyclingAppiOS-1-main"; sourceTree = "<group>"; };
+		2F55CCAA25D45B9400288C6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2F55CCAC25D45B9400288C6D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2F55CCAE25D45B9400288C6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2F55CCB125D45B9400288C6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F55CCB325D45B9500288C6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F55CCB625D45B9500288C6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F55CCB825D45B9500288C6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F55CCBD25D45B9600288C6D /* RecyclingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecyclingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F55CCC125D45B9600288C6D /* RecyclingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecyclingTests.swift; sourceTree = "<group>"; };
+		2F55CCC325D45B9600288C6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F55CCC825D45B9600288C6D /* RecyclingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecyclingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F55CCCC25D45B9600288C6D /* RecyclingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecyclingUITests.swift; sourceTree = "<group>"; };
+		2F55CCCE25D45B9600288C6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F72E3A825D34A4000FBED29 /* RecyclingAppiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecyclingAppiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F72E3AB25D34A4000FBED29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F72E3AD25D34A4000FBED29 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,6 +68,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2F55CCBA25D45B9600288C6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F55CCC525D45B9600288C6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2F72E3A525D34A4000FBED29 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -78,12 +106,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F55CCA925D45B9400288C6D /* Recycling */ = {
+			isa = PBXGroup;
+			children = (
+				2F55CCAA25D45B9400288C6D /* AppDelegate.swift */,
+				2F55CCAC25D45B9400288C6D /* SceneDelegate.swift */,
+				2F55CCAE25D45B9400288C6D /* ViewController.swift */,
+				2F55CCB025D45B9400288C6D /* Main.storyboard */,
+				2F55CCB325D45B9500288C6D /* Assets.xcassets */,
+				2F55CCB525D45B9500288C6D /* LaunchScreen.storyboard */,
+				2F55CCB825D45B9500288C6D /* Info.plist */,
+			);
+			path = Recycling;
+			sourceTree = "<group>";
+		};
+		2F55CCC025D45B9600288C6D /* RecyclingTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F55CCC125D45B9600288C6D /* RecyclingTests.swift */,
+				2F55CCC325D45B9600288C6D /* Info.plist */,
+			);
+			path = RecyclingTests;
+			sourceTree = "<group>";
+		};
+		2F55CCCB25D45B9600288C6D /* RecyclingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F55CCCC25D45B9600288C6D /* RecyclingUITests.swift */,
+				2F55CCCE25D45B9600288C6D /* Info.plist */,
+			);
+			path = RecyclingUITests;
+			sourceTree = "<group>";
+		};
 		2F72E39F25D34A4000FBED29 = {
 			isa = PBXGroup;
 			children = (
 				2F72E3AA25D34A4000FBED29 /* RecyclingAppiOS */,
 				2F72E3C125D34A4500FBED29 /* RecyclingAppiOSTests */,
 				2F72E3CC25D34A4500FBED29 /* RecyclingAppiOSUITests */,
+				2F55CCA925D45B9400288C6D /* Recycling */,
+				2F55CCC025D45B9600288C6D /* RecyclingTests */,
+				2F55CCCB25D45B9600288C6D /* RecyclingUITests */,
 				2F72E3A925D34A4000FBED29 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,6 +157,8 @@
 				2F72E3A825D34A4000FBED29 /* RecyclingAppiOS.app */,
 				2F72E3BE25D34A4500FBED29 /* RecyclingAppiOSTests.xctest */,
 				2F72E3C925D34A4500FBED29 /* RecyclingAppiOSUITests.xctest */,
+				2F55CCBD25D45B9600288C6D /* RecyclingTests.xctest */,
+				2F55CCC825D45B9600288C6D /* RecyclingUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,6 +199,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		2F55CCBC25D45B9600288C6D /* RecyclingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F55CCD625D45B9600288C6D /* Build configuration list for PBXNativeTarget "RecyclingTests" */;
+			buildPhases = (
+				2F55CCB925D45B9600288C6D /* Sources */,
+				2F55CCBA25D45B9600288C6D /* Frameworks */,
+				2F55CCBB25D45B9600288C6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RecyclingTests;
+			productName = RecyclingTests;
+			productReference = 2F55CCBD25D45B9600288C6D /* RecyclingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F55CCC725D45B9600288C6D /* RecyclingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F55CCD725D45B9600288C6D /* Build configuration list for PBXNativeTarget "RecyclingUITests" */;
+			buildPhases = (
+				2F55CCC425D45B9600288C6D /* Sources */,
+				2F55CCC525D45B9600288C6D /* Frameworks */,
+				2F55CCC625D45B9600288C6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RecyclingUITests;
+			productName = RecyclingUITests;
+			productReference = 2F55CCC825D45B9600288C6D /* RecyclingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		2F72E3A725D34A4000FBED29 /* RecyclingAppiOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F72E3D225D34A4500FBED29 /* Build configuration list for PBXNativeTarget "RecyclingAppiOS" */;
@@ -194,9 +293,17 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1160;
-				LastUpgradeCheck = 1160;
+				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = "Federico Landaeta";
 				TargetAttributes = {
+					2F55CCBC25D45B9600288C6D = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 2F55CCA725D45B9400288C6D;
+					};
+					2F55CCC725D45B9600288C6D = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 2F55CCA725D45B9400288C6D;
+					};
 					2F72E3A725D34A4000FBED29 = {
 						CreatedOnToolsVersion = 11.6;
 					};
@@ -226,18 +333,33 @@
 				2F72E3A725D34A4000FBED29 /* RecyclingAppiOS */,
 				2F72E3BD25D34A4500FBED29 /* RecyclingAppiOSTests */,
 				2F72E3C825D34A4500FBED29 /* RecyclingAppiOSUITests */,
+				2F55CCBC25D45B9600288C6D /* RecyclingTests */,
+				2F55CCC725D45B9600288C6D /* RecyclingUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2F55CCBB25D45B9600288C6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F55CCC625D45B9600288C6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2F72E3A625D34A4000FBED29 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2F72E3B825D34A4500FBED29 /* LaunchScreen.storyboard in Resources */,
 				2F72E3B525D34A4400FBED29 /* Assets.xcassets in Resources */,
-				2F19B69525D44545002C4509 /* RecyclingAppiOS-1-main in Resources */,
 				2F72E3B325D34A4000FBED29 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +381,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2F55CCB925D45B9600288C6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F55CCC225D45B9600288C6D /* RecyclingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F55CCC425D45B9600288C6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F55CCCD25D45B9600288C6D /* RecyclingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2F72E3A425D34A4000FBED29 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -301,6 +439,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		2F55CCB025D45B9400288C6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F55CCB125D45B9400288C6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F55CCB525D45B9500288C6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F55CCB625D45B9500288C6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		2F72E3B125D34A4000FBED29 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -320,6 +474,90 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		2F55CCD125D45B9600288C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 986N236JV2;
+				INFOPLIST_FILE = RecyclingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FedericoLandaeta.RecyclingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Recycling.app/Recycling";
+			};
+			name = Debug;
+		};
+		2F55CCD225D45B9600288C6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 986N236JV2;
+				INFOPLIST_FILE = RecyclingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FedericoLandaeta.RecyclingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Recycling.app/Recycling";
+			};
+			name = Release;
+		};
+		2F55CCD325D45B9600288C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 986N236JV2;
+				INFOPLIST_FILE = RecyclingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FedericoLandaeta.RecyclingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Recycling;
+			};
+			name = Debug;
+		};
+		2F55CCD425D45B9600288C6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 986N236JV2;
+				INFOPLIST_FILE = RecyclingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FedericoLandaeta.RecyclingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Recycling;
+			};
+			name = Release;
+		};
 		2F72E3D025D34A4500FBED29 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -346,6 +584,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -406,6 +645,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -557,6 +797,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2F55CCD625D45B9600288C6D /* Build configuration list for PBXNativeTarget "RecyclingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F55CCD125D45B9600288C6D /* Debug */,
+				2F55CCD225D45B9600288C6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F55CCD725D45B9600288C6D /* Build configuration list for PBXNativeTarget "RecyclingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F55CCD325D45B9600288C6D /* Debug */,
+				2F55CCD425D45B9600288C6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2F72E3A325D34A4000FBED29 /* Build configuration list for PBXProject "RecyclingAppiOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
