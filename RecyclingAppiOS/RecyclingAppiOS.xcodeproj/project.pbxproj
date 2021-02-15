@@ -3,12 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		2F55CCC225D45B9600288C6D /* RecyclingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F55CCC125D45B9600288C6D /* RecyclingTests.swift */; };
 		2F55CCCD25D45B9600288C6D /* RecyclingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F55CCCC25D45B9600288C6D /* RecyclingUITests.swift */; };
+		2F70909525DB321A003D0C87 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70909425DB321A003D0C87 /* CameraViewController.swift */; };
 		2F72E3AC25D34A4000FBED29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F72E3AB25D34A4000FBED29 /* AppDelegate.swift */; };
 		2F72E3AE25D34A4000FBED29 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F72E3AD25D34A4000FBED29 /* SceneDelegate.swift */; };
 		2F72E3B025D34A4000FBED29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F72E3AF25D34A4000FBED29 /* ViewController.swift */; };
@@ -17,6 +18,9 @@
 		2F72E3B825D34A4500FBED29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F72E3B625D34A4500FBED29 /* LaunchScreen.storyboard */; };
 		2F72E3C325D34A4500FBED29 /* RecyclingAppiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F72E3C225D34A4500FBED29 /* RecyclingAppiOSTests.swift */; };
 		2F72E3CE25D34A4500FBED29 /* RecyclingAppiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F72E3CD25D34A4500FBED29 /* RecyclingAppiOSUITests.swift */; };
+		380AC492A3F47EEB75BAA310 /* Pods_RecyclingAppiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68F82199F75955FE5D8995AA /* Pods_RecyclingAppiOS.framework */; };
+		CEA4258A3CF835CF44C36721 /* Pods_RecyclingAppiOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12585437E9DD32BFC5D7A66 /* Pods_RecyclingAppiOSTests.framework */; };
+		E5F2E9AC7EEB410F38F6B72D /* Pods_RecyclingAppiOS_RecyclingAppiOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ECD0A9CA3508573DB040F0E /* Pods_RecyclingAppiOS_RecyclingAppiOSUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1EA660BA6CB01B71FFEA111B /* Pods-RecyclingAppiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecyclingAppiOS.release.xcconfig"; path = "Target Support Files/Pods-RecyclingAppiOS/Pods-RecyclingAppiOS.release.xcconfig"; sourceTree = "<group>"; };
+		1ECD0A9CA3508573DB040F0E /* Pods_RecyclingAppiOS_RecyclingAppiOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecyclingAppiOS_RecyclingAppiOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		213B1D008D0B3EB448D5B229 /* Pods-RecyclingAppiOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecyclingAppiOSTests.release.xcconfig"; path = "Target Support Files/Pods-RecyclingAppiOSTests/Pods-RecyclingAppiOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		2F19B69425D44545002C4509 /* RecyclingAppiOS-1-main */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "RecyclingAppiOS-1-main"; path = "../../Programming/RecyclingAppiOS-1-main"; sourceTree = "<group>"; };
 		2F55CCAA25D45B9400288C6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F55CCAC25D45B9400288C6D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +58,7 @@
 		2F55CCC825D45B9600288C6D /* RecyclingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecyclingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F55CCCC25D45B9600288C6D /* RecyclingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecyclingUITests.swift; sourceTree = "<group>"; };
 		2F55CCCE25D45B9600288C6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F70909425DB321A003D0C87 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		2F72E3A825D34A4000FBED29 /* RecyclingAppiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecyclingAppiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F72E3AB25D34A4000FBED29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F72E3AD25D34A4000FBED29 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +73,12 @@
 		2F72E3C925D34A4500FBED29 /* RecyclingAppiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecyclingAppiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F72E3CD25D34A4500FBED29 /* RecyclingAppiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecyclingAppiOSUITests.swift; sourceTree = "<group>"; };
 		2F72E3CF25D34A4500FBED29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3191E24CF1F5288F7809ABF4 /* Pods-RecyclingAppiOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecyclingAppiOSTests.debug.xcconfig"; path = "Target Support Files/Pods-RecyclingAppiOSTests/Pods-RecyclingAppiOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		68F82199F75955FE5D8995AA /* Pods_RecyclingAppiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecyclingAppiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A347AF9F7C9E21F19FAC332D /* Pods-RecyclingAppiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecyclingAppiOS.debug.xcconfig"; path = "Target Support Files/Pods-RecyclingAppiOS/Pods-RecyclingAppiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		BA289BCD936D45CA6504830E /* Pods-RecyclingAppiOS-RecyclingAppiOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecyclingAppiOS-RecyclingAppiOSUITests.release.xcconfig"; path = "Target Support Files/Pods-RecyclingAppiOS-RecyclingAppiOSUITests/Pods-RecyclingAppiOS-RecyclingAppiOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C12585437E9DD32BFC5D7A66 /* Pods_RecyclingAppiOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecyclingAppiOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D349BA9B0E8765CFE2202DAD /* Pods-RecyclingAppiOS-RecyclingAppiOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecyclingAppiOS-RecyclingAppiOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-RecyclingAppiOS-RecyclingAppiOSUITests/Pods-RecyclingAppiOS-RecyclingAppiOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				380AC492A3F47EEB75BAA310 /* Pods_RecyclingAppiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEA4258A3CF835CF44C36721 /* Pods_RecyclingAppiOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5F2E9AC7EEB410F38F6B72D /* Pods_RecyclingAppiOS_RecyclingAppiOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +165,8 @@
 				2F55CCC025D45B9600288C6D /* RecyclingTests */,
 				2F55CCCB25D45B9600288C6D /* RecyclingUITests */,
 				2F72E3A925D34A4000FBED29 /* Products */,
+				AEA1A172219B00FF990F99D8 /* Pods */,
+				781A5EA86B6E4AC66961F14B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -170,6 +189,7 @@
 				2F72E3AD25D34A4000FBED29 /* SceneDelegate.swift */,
 				2F72E3AF25D34A4000FBED29 /* ViewController.swift */,
 				2F72E3B125D34A4000FBED29 /* Main.storyboard */,
+				2F70909425DB321A003D0C87 /* CameraViewController.swift */,
 				2F19B69425D44545002C4509 /* RecyclingAppiOS-1-main */,
 				2F72E3B425D34A4400FBED29 /* Assets.xcassets */,
 				2F72E3B625D34A4500FBED29 /* LaunchScreen.storyboard */,
@@ -194,6 +214,29 @@
 				2F72E3CF25D34A4500FBED29 /* Info.plist */,
 			);
 			path = RecyclingAppiOSUITests;
+			sourceTree = "<group>";
+		};
+		781A5EA86B6E4AC66961F14B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68F82199F75955FE5D8995AA /* Pods_RecyclingAppiOS.framework */,
+				1ECD0A9CA3508573DB040F0E /* Pods_RecyclingAppiOS_RecyclingAppiOSUITests.framework */,
+				C12585437E9DD32BFC5D7A66 /* Pods_RecyclingAppiOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AEA1A172219B00FF990F99D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A347AF9F7C9E21F19FAC332D /* Pods-RecyclingAppiOS.debug.xcconfig */,
+				1EA660BA6CB01B71FFEA111B /* Pods-RecyclingAppiOS.release.xcconfig */,
+				D349BA9B0E8765CFE2202DAD /* Pods-RecyclingAppiOS-RecyclingAppiOSUITests.debug.xcconfig */,
+				BA289BCD936D45CA6504830E /* Pods-RecyclingAppiOS-RecyclingAppiOSUITests.release.xcconfig */,
+				3191E24CF1F5288F7809ABF4 /* Pods-RecyclingAppiOSTests.debug.xcconfig */,
+				213B1D008D0B3EB448D5B229 /* Pods-RecyclingAppiOSTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,9 +280,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F72E3D225D34A4500FBED29 /* Build configuration list for PBXNativeTarget "RecyclingAppiOS" */;
 			buildPhases = (
+				30FAE04DEC663DE4150F4BE9 /* [CP] Check Pods Manifest.lock */,
 				2F72E3A425D34A4000FBED29 /* Sources */,
 				2F72E3A525D34A4000FBED29 /* Frameworks */,
 				2F72E3A625D34A4000FBED29 /* Resources */,
+				B71EBD4E3DB67A445C0FDCC5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,6 +299,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F72E3D525D34A4500FBED29 /* Build configuration list for PBXNativeTarget "RecyclingAppiOSTests" */;
 			buildPhases = (
+				54449E8DFFCF6A6FDCD20357 /* [CP] Check Pods Manifest.lock */,
 				2F72E3BA25D34A4500FBED29 /* Sources */,
 				2F72E3BB25D34A4500FBED29 /* Frameworks */,
 				2F72E3BC25D34A4500FBED29 /* Resources */,
@@ -272,9 +318,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F72E3D825D34A4500FBED29 /* Build configuration list for PBXNativeTarget "RecyclingAppiOSUITests" */;
 			buildPhases = (
+				CF3F4B721E60C99491224A23 /* [CP] Check Pods Manifest.lock */,
 				2F72E3C525D34A4500FBED29 /* Sources */,
 				2F72E3C625D34A4500FBED29 /* Frameworks */,
 				2F72E3C725D34A4500FBED29 /* Resources */,
+				F92DA7E4B0A6A07745B0B208 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -380,6 +428,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		30FAE04DEC663DE4150F4BE9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RecyclingAppiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54449E8DFFCF6A6FDCD20357 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RecyclingAppiOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B71EBD4E3DB67A445C0FDCC5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RecyclingAppiOS/Pods-RecyclingAppiOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RecyclingAppiOS/Pods-RecyclingAppiOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RecyclingAppiOS/Pods-RecyclingAppiOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF3F4B721E60C99491224A23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RecyclingAppiOS-RecyclingAppiOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F92DA7E4B0A6A07745B0B208 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RecyclingAppiOS-RecyclingAppiOSUITests/Pods-RecyclingAppiOS-RecyclingAppiOSUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RecyclingAppiOS-RecyclingAppiOSUITests/Pods-RecyclingAppiOS-RecyclingAppiOSUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RecyclingAppiOS-RecyclingAppiOSUITests/Pods-RecyclingAppiOS-RecyclingAppiOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2F55CCB925D45B9600288C6D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -402,6 +553,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F72E3B025D34A4000FBED29 /* ViewController.swift in Sources */,
+				2F70909525DB321A003D0C87 /* CameraViewController.swift in Sources */,
 				2F72E3AC25D34A4000FBED29 /* AppDelegate.swift in Sources */,
 				2F72E3AE25D34A4000FBED29 /* SceneDelegate.swift in Sources */,
 			);
@@ -676,6 +828,7 @@
 		};
 		2F72E3D325D34A4500FBED29 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A347AF9F7C9E21F19FAC332D /* Pods-RecyclingAppiOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -694,6 +847,7 @@
 		};
 		2F72E3D425D34A4500FBED29 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EA660BA6CB01B71FFEA111B /* Pods-RecyclingAppiOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -712,6 +866,7 @@
 		};
 		2F72E3D625D34A4500FBED29 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3191E24CF1F5288F7809ABF4 /* Pods-RecyclingAppiOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -734,6 +889,7 @@
 		};
 		2F72E3D725D34A4500FBED29 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 213B1D008D0B3EB448D5B229 /* Pods-RecyclingAppiOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -756,6 +912,7 @@
 		};
 		2F72E3D925D34A4500FBED29 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D349BA9B0E8765CFE2202DAD /* Pods-RecyclingAppiOS-RecyclingAppiOSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -776,6 +933,7 @@
 		};
 		2F72E3DA25D34A4500FBED29 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA289BCD936D45CA6504830E /* Pods-RecyclingAppiOS-RecyclingAppiOSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

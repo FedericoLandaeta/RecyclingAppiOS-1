@@ -7,14 +7,21 @@
 //
 
 import UIKit
+import MLKitBarcodeScanning
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var CameraButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func buttonClicked(_ sender: Any) {
+        print("Button Clicked")
+    }
+    
+    
+    
 }
 

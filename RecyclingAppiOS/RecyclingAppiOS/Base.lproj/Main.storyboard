@@ -27,8 +27,8 @@
                                             <view contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="Yjf-ML-ZvN">
                                                 <rect key="frame" x="20" y="10" width="374" height="150"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PGn-fn-mky">
-                                                        <rect key="frame" x="158" y="49" width="58" height="52"/>
+                                                    <button opaque="NO" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PGn-fn-mky">
+                                                        <rect key="frame" x="140" y="41" width="94" height="68"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="18"/>
                                                         <state key="normal">
@@ -36,6 +36,10 @@
                                                             <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <imageReference key="image" image="camera" catalog="system" symbolScale="large" renderingMode="original"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="buttonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jb7-sh-5Ob"/>
+                                                            <segue destination="l2x-ka-WtW" kind="presentation" id="KY2-W8-ds4"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
@@ -85,10 +89,29 @@
                         </constraints>
                     </view>
                     <size key="freeformSize" width="414" height="2400"/>
+                    <connections>
+                        <outlet property="CameraButton" destination="PGn-fn-mky" id="iha-hk-ZCw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="109.82142857142857"/>
+        </scene>
+        <!--Camera View Controller-->
+        <scene sceneID="NTk-ZC-MUG">
+            <objects>
+                <viewController id="l2x-ka-WtW" customClass="CameraViewController" customModule="RecyclingAppiOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bYs-0c-xbF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="LfR-op-Xb2"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="8Ok-gE-is0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xS1-vD-HP9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="832" y="-393"/>
         </scene>
     </scenes>
     <resources>
